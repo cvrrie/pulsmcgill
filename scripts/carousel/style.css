@@ -1,0 +1,22 @@
+﻿.list_carousel {}
+.list_carousel ul {
+    margin-left: 10px;
+	padding: 0;
+    height: 300px;
+    width: 100%;
+	list-style: none;
+	display: block;
+}
+/* the actual box holding the carousel */
+.list_carousel li {
+	margin: 20px;
+    height:300px;
+	display: block;
+	float: left;
+}
+.list_carousel.responsive {
+	width: auto;
+	height: auto;
+	margin-left: 0;
+}
+
