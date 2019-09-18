@@ -4,6 +4,8 @@
     src: url(Fonts/larsseit.ttf);
     font-family: 'lars';
 }
+@import "compass/css3";
+
 /* Site Name */
 
 #divSiteTitle {text-decoration:none;}
@@ -37,11 +39,11 @@ h3, h4, h5, h6 {
 }
 
 .lead h3 a {
-    font-size:inherit !important;
+    font-size: inherit;
 }
 
 
-/* Contact */
+/* Contact */f
 
 ul#contact-info .icon {font-size:20px;float:left;line-height:25px;margin-right:10px;}
 
@@ -132,12 +134,8 @@ margin-top:-2px;padding-top:2px;
 
 /* Footer elements */
 
-.social_bookmarks a {
-    font-size:smaller !important;
-    text-transform:uppercase;
-    letter-spacing:1px;
-    text-decoration:none;
-    margin-right:20px;
+.social-bookmarks a {
+    
 }
 
 .copyright {
@@ -156,10 +154,10 @@ img {
     box-sizing:border-box;
 }
 
-.img-polaroid {
+.cphoto {
     max-width: 340px !important;
     width: 340px;
-    padding: 20px !important;
+    padding: 16px !important;
     box-shadow: -1px 7px 20px #dddddd;
     margin: 0px;
     text-align: center;
@@ -452,8 +450,8 @@ h1 {
 
 #divFooter{
     font-family: 'Lato', sans-serif; 
-    background-color: rgb(0, 0, 0); 
-    color: rgb(255, 255, 255);
+    background-color: #22445F; 
+    color: #fff;
     padding-top: 32px; 
     line-height: 22px; 
     font-size: 12px; 
@@ -463,11 +461,11 @@ h1 {
 }
 
 #divFooter a{
-    color: #800000;
+    color: #fff;
 }
 
 #divFooter h3{
-    color: rgb(255, 255, 255);
+    color: #fff;
 }
 
 h2 {
@@ -476,6 +474,7 @@ h2 {
     font-family: 'Lato', sans-serif;
     font-size: 35px; 
     line-height: 45px;
+    color: #22445F;
 }
 
 .breadcrumbs {
@@ -535,9 +534,6 @@ h2 {
 	font-family: 'Lato', sans-serif;
 }
 
-#officehours {
-     
-}
 
 a.btn, a.btn-large, a.btn-small, a.btn-mini {color:#333}
 a.btn-info, a.btn-success, a.btn-warning, a.btn-danger, a.btn-inverse {color:#ffffff}
@@ -569,11 +565,8 @@ a.btn-info, a.btn-success, a.btn-warning, a.btn-danger, a.btn-inverse {color:#ff
 
 #headerSeparator{margin-top: 7px; border-top-color: rgb(51, 51, 51); border-top-width: 0px; border-top-style: solid;}
 
-h3,.page-content h3 a {
+h3, .page-content h3 a {
     font-family: 'Lato', sans-serif; 
-    font-size: 25px; 
-    line-height: 45px;
-    font-weight: normal;
 }
 
 h4,.page-content h4 a {
@@ -678,7 +671,7 @@ h6,.page-content h6 a {font-weight: normal; font-style: normal; font-family: 'la
     left:100%;
     position:absolute;
     top:0;
-    visibility:hidden;
+    visibility:;
     margin-top:-1px;
 }
 
@@ -700,7 +693,7 @@ h6,.page-content h6 a {font-weight: normal; font-style: normal; font-family: 'la
 
 /* About/academics/services/contact text on navbar ON HOVER */
 .navbar .nav-pills > li > a:hover, .navbar .nav li.dropdown.open.active > .dropdown-toggle, .navbar .nav-pills > li > a:focus {
-    color: #C52525; 
+    color: #417080; 
     font-weight: 400;
     text-transform: uppercase;
     background-color: #FCFAFB; 
@@ -730,27 +723,47 @@ body {padding-top:85px}
 
 /* text for welcome message */
 .lead h2 {
-    font-size: 37px; 
+    font-size: 35px; 
     line-height: 57px; 
     font-family: 'Lato', sans-serif;
+    margin-bottom: 10px;
+    text-rendering: optimizeLegibility;
+    letter-spacing: 1.0px;
 }
 
 
 .lead h3 {
-    font-size: 15px; 
-    color: #333333;
+    font-size: 20px;
+    color: #95A0A4;
     line-height: 31px;
-    width: 50%;
+    width: 40%;
+    margin-bottom: 100px;
+    text-rendering: optimizeLegibility;
     letter-spacing: 1.0px;
+    font-weight: 300;
 }
 
-.dropdown-menu .sub-menu {left:100%;position:absolute;top:0;visibility:hidden;margin-top:-1px;}
-.dropdown-menu li:hover .sub-menu {visibility:visible;}
-.navbar .btn-navbar-highlight {display:none;width:100%}
+.dropdown-menu .sub-menu {                  
+    left:100%;
+    position:absolute;
+    top:0;
+    visibility:;
+    margin-top:-1px;
+}
+.dropdown-menu li:hover .sub-menu {
+    visibility:visible;
+}
+.navbar .btn-navbar-highlight {
+    display:none;
+    width:100%;
+}
 
-#decorative2 {z-index:100 !important}
+#decorative2 {
+    z-index:100 !important
+}
 
 @media (max-width: 979px) {
+    
      #divLogo {
          margin-bottom:10px;
     }
@@ -775,7 +788,7 @@ body {padding-top:85px}
         top:0;
         visibility:visible;
         margin-top:3px;
-        display:block
+        display: ;
     }
 
     .dropdown-menu, .sub-menu {
@@ -838,7 +851,7 @@ body {padding-top:85px}
 
     #divVideo {margin-top:20px}
     
-    .dropdown-menu .sub-menu {left:0%;position:relative;top:0;visibility:visible;margin-top:3px;display:block}
+    .dropdown-menu .sub-menu {left:0%;position:relative;top:0;visibility:visible;margin-top:3px;display:none;}
 
     .dropdown-menu, .sub-menu {border-radius:5px !important;}
 
@@ -900,7 +913,6 @@ body {padding-top:85px}
 container.a{text-decoration: underline;}
 
 *{
-	font-weight: normal;
 	font-style: normal;
     font-family: 'Lato', sans-serif;	
 	}
@@ -908,7 +920,7 @@ container.a{text-decoration: underline;}
 .toc {
     position: -webkit-sticky;
     position: sticky;
-    top: 100px
+    top: 100px;
 }
 .anchor {
     display:block;
@@ -917,45 +929,56 @@ container.a{text-decoration: underline;}
     visibility: hidden;
 }
 
-table {
-    width: 70%;
-    border: 0px;
+.office {
+    width: 100%;
+    background-color: #F4F8F9;
+    padding: 50px 30px;
+    text-align: center;
+    border-collapse: separate !important;
+    border: 30px solid #F4F8F9;
+    border-radius: 30px;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
 }
 
-td {
-    font-size: 14px;
+.otd {
+    font-size: 15px;
     text-transform: none;
     border-radius: 30px;
     margin: 20px;
     width: 15%;
-    box-shadow: -1px 7px 20px #dddddd;
-    
+    padding-top: 7px;
+    padding-bottom: 0px;
     color: #333333; 
     font-weight: 400;
-    text-transform: none;
-    background-color: #FCFAFB; 
     transition: 0.3s;
+    
 }
 
-td:hover {
+.otd:hover {
     cursor: pointer;
     border-radius: 100px;
-    color: #ffffff; 
+    color: #203137; 
     font-weight: 400;
     text-transform: none;
-    background-color: #1C4D74; 
+    background-color: #417080; 
+    box-shadow: 0px 5px 14px #C7D5D8;
+    position: relative;
+    z-index: 1;
 }
 
 
-th {
-    border: 0px solid black;
+
+
+.oth {
     font-weight: 600;
-    font-size: 12px;
+    font-size: 13px;
     letter-spacing: 1.5px;
+    margin-top: 40px;
+    border-radius: 30px;
 }
-tr, td {
-    border: 5px solid white;
-    text-align: center;
+.otr, .otd {
+    text-align: center !important;
 }
 
 .navbarlogo {
@@ -974,19 +997,218 @@ tr, td {
 }
 
 .fblink {
-    
+    transition: 0.3s;
 }
 .fblink:hover {
     text-decoration: none;
-    color: #; 
+    color: #ffffff; 
+    background-color: #417080;
 
 }
-.office {
-}
+
+
 
 .text {
     font-family: 'Lato', sans-serif;
+    font-size: 14px; 
+    color: #95A0A4;
+    line-height: 31px;
+    width: 80%;
+    margin: 10px 0px;
+    text-rendering: optimizeLegibility;
+    font-weight: 400;
+
+}
+.text a {
     font-size: 14px;
+    color: #417080;
+    font-weight: 400;
+}
+
+.text a:hover {
+    color: #A0C1CD;
+    text-decoration: none;
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    overflow: hidden;   
+}
+.role {
+    text-transform: uppercase;
+    font-size: 12px !important;
+    line-height: 10.0px;
+    padding-top: 3px;
+    padding-bottom: 12px;
+    color: #A0C1CD;
+    transition: 0.3s;
+}
+
+.tbd {
+    padding-top: 0px;
+    color: #417080;
+}
+
+.tbd:hover {
+    font-size: 14px;
+    text-transform: none;
+    border-radius: 30px;
+    margin: 20px;
+    width: 15%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: #417080; 
+    font-weight: 400;
+    background-color: none; 
+    box-shadow: none;
+    cursor: auto;
+}
+
+/*makes the role turn white on hover (not the div)*/
+.office p:hover {
+    color: #ffffff;
+}
+.time {
+    color: #417080;
+}
+
+
+
+
+
+/*newspost*/
+.newspost {
+    position: relative;
+    max-width: 80%;
+    margin: auto;
+    padding-top: 40px;
+    box-sizing: border-box;
+    background-color: #F4F8F9;
+    border-radius: 30px;
+    font-weight: 300;
+}
+
+.newspost .newsheader {
+    text-align: center;
+    color: #22445F;
+    letter-spacing: 1.0px;
+
+}
+.newspost .left {
+    margin-top: 60px;
+    display: inline-block;
+    float: center;
+    width: 20%;
+    color: #ffffff;
+    max-width: 50%
+    
+}
+.row {
+    margin-left: none !important;
+}
+.newspost .right {
+    margin-top: 50px;
+    width: 800px;
+    max-width: 80%;
+    color: #22445F;
+    padding-left: 0px;
+    transform: translate(-30px, 0px);
+
+}
+.right h3 {
+    max-width: 60%;   
+}
+.date {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: right;
+    display: inline-block;
+    float: right;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #A0C1CD;
+    color: #A0C1CD;
+}
+
+
+
+.newspost .post .content {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px; 
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    margin-bottom: 50px;
+    max-width: 60%;
+
+}
+
+.newsphoto {
+    max-width: 50px;
+}
+
+
+hr {
+    display: block;
+    width: 60%;
+    margin: 50px auto 50px auto;
+    height: 1px;
+    background-color: #417080;
+}
+
+h1 {
+    
+}
+.col-6 {
+    max-width: 600px;
+    line-height: 0px;
+}
+.col-10 {
+        line-height: 0px;
+
+}
+
+.col-md-4, .col-md-8 {
+    padding-right: 90px;
+}
+
+.imgmark {
+    max-height: 50px;
+    position: absolute;
+    transform: translate(300px, -20px);
+}
+
+.footerhead {
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 2.0px;
+    margin: 35px;
+    margin-left: 0px;
+}
+
+.footerhead2 {
+    padding-left: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.footercontent {
+    text-transform: none;
+    font-size: 13px;
+    letter-spacing: 0px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 24px;
+    margin-top: 15px;
+}
+
+.footercontent a {
+    color: #A0C1CD !important;
+    transition: 0.5s;
+    text-decoration: none;
+
+}
+
+.footercontent a:hover {
+    color: #fff !important;
 }
 /*
 .lead .welcome .line1 {
