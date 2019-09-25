@@ -264,7 +264,6 @@ a:hover {
 }
 
 .row {
-  margin-left: -20px;
   *zoom: 1;
 }
 
@@ -826,8 +825,8 @@ ol.inline {
 ul.inline > li,
 ol.inline > li {
   display: inline-block;
-  padding-right: 0px;
-  padding-left: 0px;
+  padding-right: 0;
+  padding-left: 0;
 }
 
 dl {
@@ -1978,7 +1977,7 @@ table {
   background-color: transparent;
   border-collapse: collapse;
   border-spacing: 0;
-    border: 0px;
+    border: 0;
     border-radius: 10px;
 
 }

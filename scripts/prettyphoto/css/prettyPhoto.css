@@ -172,7 +172,7 @@ div.dark_rounded #pp_full_res .pp_inline,div.dark_square #pp_full_res .pp_inline
 .pp_gallery img {height:inherit !important;width:inherit !important;}
 .pp_left, .pp_right{background:none !important;}
 .pp_top, .pp_bottom {display:none !important;}
-.pp_content {border: solid 0px #111;-webkit-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);-moz-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);}
+.pp_content {border: solid 0 #111;-webkit-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);-moz-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);}
 .pp_nav {margin-left:7px !important;margin-right:8px;}
 .pp_close {margin-right:7px !important}
 .pp_description {margin: 8px 50px 5px 12px !important;}
