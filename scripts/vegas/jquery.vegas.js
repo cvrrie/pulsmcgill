@@ -59,8 +59,8 @@
             var $new = $background.clone();
             $new.css( {
                 'position': 'fixed',
-                'left': '0px',
-                'top': '0px'
+                'left': '0',
+                'top': '0'
             })
             .imagesLoadedForVegas( function() {
                 if ( $new == $current ) {
@@ -144,8 +144,8 @@
                     'margin': '0',
                     'padding': '0',
                     'position': 'fixed',
-                    'left': '0px',
-                    'top': '0px',
+                    'left': '0',
+                    'top': '0',
                     'width': '100%',
                     'height': '100%'
             });
