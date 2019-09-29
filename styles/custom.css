@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,600&display=swap');
 
 @font-face {
-    src: url(../Fonts/Larsseit.ttf);
+    src: url(../fonts/Larsseit.ttf);
     font-family: 'lars';
 }
 @import "compass/css3";

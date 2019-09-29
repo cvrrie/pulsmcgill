@@ -7,10 +7,10 @@
  *
  * Designed and built with all the love in the world @twitter by @mdo and @fat.
  */
-@import url('https://fonts.googleapis.com/css?family=Be Vietnam:300,400,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Be+Vietnam:300,400,900&display=swap');
 
 @font-face {
-    src: url(../../../Fonts/Larsseit.ttf);
+    src: url(../../../fonts/Larsseit.ttf);
     font-family: lars;
 }
 
