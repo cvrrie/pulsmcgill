@@ -7,7 +7,7 @@
  *
  * Designed and built with all the love in the world @twitter by @mdo and @fat.
  */
-@import url('https://fonts.googleapis.com/css?family=Lato:300,400,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Be Vietnam:300,400,900&display=swap');
 
 @font-face {
     src: url(../../../Fonts/Larsseit.ttf);
@@ -229,7 +229,7 @@ textarea {
 
 body {
   margin: 0;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Be Vietnam', sans-serif;
   font-size: 14px;
   line-height: 20px;
   color: #ffffff;
@@ -724,7 +724,7 @@ h4,
 h5,
 h6 {
     margin: 10px 0;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Be Vietnam', sans-serif;
     line-height: 20px;
     color: inherit;
     text-rendering: optimizelegibility;
@@ -954,7 +954,7 @@ address {
 code,
 pre {
   padding: 0 3px 2px;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Be Vietnam', sans-serif;
   font-size: 12px;
   color: #333333;
   -webkit-border-radius: 3px;
@@ -1047,7 +1047,7 @@ input,
 button,
 select,
 textarea {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Be Vietnam', sans-serif;
 }
 
 label {
@@ -4447,7 +4447,7 @@ input[type="submit"].btn.btn-mini {
 .navbar-search .search-query {
   padding: 4px 14px;
   margin-bottom: 0;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Be Vietnam', sans-serif;
   font-size: 13px;
   font-weight: normal;
   line-height: 1;
