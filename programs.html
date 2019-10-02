@@ -46,7 +46,7 @@
                     <div id="divMenuRight" class="pull-right">
                     <div class="navbar">
                         <button type="button" class="btn btn-navbar-highlight btn-large btn-primary" data-toggle="collapse" data-target=".nav-collapse">
-                            NAVIGATION ↓ <span class=""></span>
+                           NAVIGATION <b class="caret"></b><span class=""></span>
                         </button>
                         <div class="nav-collapse collapse">
                             <ul class="nav nav-pills ddmenu">
@@ -107,37 +107,40 @@
         <div class="row-fluid">
             <!--Edit Main Content Area here-->
                 <div class="span12" id="divMain">
-
-                    <h1 class="line1">Programs of study</h1>
-					<img src="big-images/programs.jpg" class="bigimg" style="margin:5px 0 15px;" alt="">
+                    <div class="imgcontainer">
+                        <div id="textoverimg">Programs of study</div>
+					   <img src="big-images/programs.jpg" class="bigimg bigimglight" alt="">
+                    </div>
                     <p/>
 
-                    <h2>Physiology Programs</h2><br/>
                     
                     <span id="liberal" class="anchor"></span>
-                    <h3>Liberal Program</h3>
-                    <p>
-                    <strong>Credits:</strong> 50 + required minor <br/>
-                    <strong>Features:</strong> Freedom to pursue studies in other domains while following the core Physiology curriculum <br/>
-                    <strong>Course Listing: <a href="https://www.mcgill.ca/physiology/undergraduate-studies/programs/liberal-program-course-listing" target="_blank">Liberal Program Course Listing</a></strong>
-                    <br/><br/>
-                    </p>
+                    <h3 id="tablename">Liberal Program</h3>
+                    <p class="blocktext block">
+                    
+                        <div class="highlight">Credits: 50 + required minor </div><br/>
+                        <p class="blocktext block"> <strong> Features: </strong>Freedom to pursue studies in other domains while following the core Physiology curriculum  <br/>
+                        <strong>Course Listing:<a href="https://www.mcgill.ca/physiology/undergraduate-studies/programs/major-program-course-listing" target="_blank"> Liberal Program</a></strong>
+                        </p>
+                            
                     
                     <span id="major" class="anchor"></span>
-                    <h3>Major Program</h3>
-                    <p>
-                    <strong>Credits:</strong> 65 <br/>
-                    <strong>Features:</strong> Remaining credits can be used to pursue a minor or simply to take interesting elective courses <br/>
-                    <strong>Course Listing:<a href="https://www.mcgill.ca/physiology/undergraduate-studies/programs/major-program-course-listing" target="_blank"> Major Program Course Listing</a></strong>
+                    <h3 id="tablename">Major Program</h3>
+                    <p class="blocktext block">
+                        <div align="center" class="highlight">Credits: 65 </div><br/>
+                        <p class="blocktext block"> <strong>Features:</strong> Remaining credits can be used to pursue a minor or simply to take interesting elective courses <br/>
+                        <strong>Course Listing:<a href="https://www.mcgill.ca/physiology/undergraduate-studies/programs/major-program-course-listing" target="_blank"> Major Program </a></strong>
+                        </p>
                     <br/><br/>
                     </p>
+                    
                     <span id="honours" class="anchor"></span>
                     
-                    <h3>Honours Program</h3>
-                    <p>
-                    <strong>Credits:</strong> 75 <br/>
-                    <strong>Features:</strong> Strong emphasis on research. Fewer credits available to pursue electives or a minor. Admission is based on U1 academic standing, with selection made before U2 <br/>
-                    <strong>Course Listing:<a href="https://www.mcgill.ca/physiology/undergraduate-studies/programs/honours-program-course-listing" target="_blank"> Honours Program Course Listing</a></strong>
+                    <h3 id="tablename">Honours Program</h3>
+                    <p class="blocktext block">
+                        <div class="highlight">Credits: 75 </div><br/>
+                        <p class="blocktext block"> <strong>Features:</strong> Strong emphasis on research. Fewer credits available to pursue electives or a minor. Admission is based on U1 academic standing, with selection made before U2  <br/>
+                        <strong>Course Listing:<a href="https://www.mcgill.ca/physiology/undergraduate-studies/programs/honours-program-course-listing" target="_blank"> Honours Program </a></strong>
                     <br/><br/>
                     </p>
 
@@ -149,15 +152,15 @@
                             <th width="30%">Evaluation</th>
                         </tr>
                         <tr>
-                            <th>PHGY 351: Research in Physiology<br/><br/><a href="syllabus/honours/PHGY351_W2018.pdf" target="_blank">Syllabus</a></th>
-                            <td>
+                            <th class="coursecode">PHGY 351: Research in Physiology<br/><br/><a href="syllabus/honours/PHGY351_W2018.pdf" target="_blank">Syllabus</a></th>
+                            <td class="coursecell">
                                 <ul>
                                     <li>Vollrath will know your name (and sometimes you’ll see her daughters <3)</li>
                                     <li>You get to play with zebrafish</li>
                                     <li>Bonding with honours friends!</li>
                                 </ul>
                             </td>
-                            <td>
+                            <td class="coursecell">
                                 <ul>
                                     <li>No one really knows what’s going on</li>
                                     <li>Lab techniques you learn are legit the same as in PHGY 212/213 and BIOL 301</li>
@@ -165,7 +168,7 @@
                                     <li>The take home midterm is actual hell</li>
                                 </ul>
                             </td>
-                            <td>
+                            <td class="coursecell">
                                 <ul>
                                     <li>Half lecture, half lab</li>
                                     <li>Legit no one knows, but you’re almost guaranteed at least an A-</li>
@@ -174,20 +177,20 @@
                             </td>
                         </tr>
                         <tr>
-                            <th>PHGY 359: Tutorial in Physiology<br/><br/><a href="syllabus/honours/PHGY359_20172018.pdf" target="_blank">Syllabus</a></th>
-                            <td>
+                            <th class="coursecode">PHGY 359: Tutorial in Physiology<br/><br/><a href="syllabus/honours/PHGY359_20172018.pdf" target="_blank">Syllabus</a></th>
+                            <td class="coursecell">
                                 <ul>
                                     <li>Very little effort required</li>
                                     <li>Can pick your supervisor</li>
                                     <li>Pass/fail course</li>
                                 </ul>
                             </td>
-                            <td>
+                            <td class="coursecell">
                                 <ul>
                                     <li>Have to read papers every month </li>
                                 </ul>
                             </td>
-                            <td>
+                            <td class="coursecell">
                                 <ul>
                                     <li>Full year course (two consecutive semesters)</li>
                                     <li>4 meetings with supervisor per semester</li>
@@ -197,14 +200,14 @@
                         </tr>
                         
                         <tr>
-                            <th>PHGY 459: Physiology Seminar<br/><br/><a href="syllabus/honours/PHGY459D1_F2017.pdf" target="_blank">Fall</a><br/><a href="syllabus/honours/PHGY459D2_W2018.pdf" target="_blank">Winter</a></th>
-                            <td>
+                            <th class="coursecode">PHGY 459: Physiology Seminar<br/><br/><a href="syllabus/honours/PHGY459D1_F2017.pdf" target="_blank">Fall</a><br/><a href="syllabus/honours/PHGY459D2_W2018.pdf" target="_blank">Winter</a></th>
+                            <td class="coursecell">
                                 <ul>
                                     <li>Teaches you how to read and discuss scientific papers</li>
                                     <li>Learn how to write a grant (cry)</li>
                                 </ul>
                             </td>
-                            <td>
+                            <td class="coursecell">
                                 <ul>
                                     <li>Papers are so dry and they take so long to read it sucks the life out of everything</li>
                                     <li>You have a write a full 10 page single spaced grant</li>
@@ -213,7 +216,7 @@
                                     <li>This course is the worst experience of McGill</li>
                                 </ul>
                             </td>
-                            <td>
+                            <td class="coursecell">
                                 <ul>
                                     <li>Full-year course (two consecutive semesters)</li>
                                     <li>Participation: 50% (25% per semester)</li>
@@ -224,8 +227,8 @@
                             </td>
                         </tr>
                         <tr>
-                            <th>PHGY 461: Experimental Physiology<br/><br/>Syllabus: N/A<br/><br/><a href="research.html#461">More</a></th>
-                            <td>
+                            <th class="coursecode">PHGY 461: Experimental Physiology<br/><br/>Syllabus: N/A<br/><br/><a href="research.html#461">More</a></th>
+                            <td class="coursecell">
                                 <ul>
                                     <li>Learn research techniques and get research experience</li>
                                     <li>Depends on your prof and research</li>
@@ -233,14 +236,14 @@
                                     <li>Learn how to write a paper and how to discuss research</li>
                                 </ul>
                             </td>
-                            <td>
+                            <td class="coursecell">
                                 <ul>
                                     <li>Hard to tell if you are doing well and its 9 credits :/</li>
                                     <li>Has a long paper and a presentation</li>
                                     <li>Depends on your prof...</li>
                                 </ul>
                             </td>
-                            <td>
+                            <td class="coursecell">
                                 <ul>
                                     <li>Full-year course (two consecutive semesters)</li>
                                     <li>Completely decided on by your supervisor!</li>
@@ -254,19 +257,22 @@
             <br/><br/>
                     
                     <span id="jointmajors" class="anchor"></span>
-                    <h3>Major Physiology and Physics</h3>
-                    <p>
-                    <strong>Credits:</strong> 82 <br/>
-                    <strong>Features:</strong> Joint major program, with high degree of specialization in physics. Very few credits available for elective courses. Applications at the end of U1 year <br/>
-                    <strong>Course Listing: <a href="https://www.mcgill.ca/physiology/undergraduate-studies/programs/physiology-physics-course-listing" target="_blank">Physiology &amp; Physics Course Listing</a></strong>
+                    <h3 id="tablename">Major Physiology and Physics</h3>
+            
+                    <p class="blocktext block">
+                        <div class="highlight">Credits: 82 </div><br/>
+                        <p class="blocktext block"> <strong>Features:</strong> Joint major program, with high degree of specialization in physics. Very few credits available for elective courses. Applications at the end of U1 year  <br/>
+                
+                        <strong>Course Listing: <a href="https://www.mcgill.ca/physiology/undergraduate-studies/programs/physiology-physics-course-listing" target="_blank">Physiology &amp; Physics </a></strong>
                     <br/><br/>
                     </p>
                     
-                    <h3>Major Physiology and Math</h3>
-                    <p>
-                    <strong>Credits:</strong> 79 <br/>
-                    <strong>Features:</strong> Joint major program, with high degree of specialization in mathematics. Very few credits available for elective courses. Applications at the end of U1 year <br/>
-                    <strong>Course Listing: <a href="https://www.mcgill.ca/physiology/undergraduate-studies/programs/physiology-math-course-listing" target="_blank">Physiology &amp; Math Course Listing</a></strong>
+                    <h3 id="tablename">Major Physiology and Math</h3>
+                    <p class="blocktext block">
+                        <div class="highlight">Credits: 79 </div><br/>
+                        <p class="blocktext block"> <strong>Features:</strong> Joint major program, with high degree of specialization in mathematics. Very few credits available for elective courses. Applications at the end of U1 year <br/>
+                
+                        <strong>Course Listing: <a href="https://www.mcgill.ca/physiology/undergraduate-studies/programs/physiology-math-course-listing" target="_blank">Physiology &amp; Math </a></strong>
                     <br/><br/>
                     </p>
                     
@@ -278,14 +284,14 @@
                             <th width="30%">Evaluation</th>
                         </tr>
                         <tr>
-                            <th>BIOL 309: Biometry<br/><br/>Syllabus: TBD<br/><br/><a href="courses.html#COMP">More</a></th>
-                            <td>
+                            <th class="coursecode">BIOL 309: Biometry<br/><br/>Syllabus: TBD<br/><br/><a href="courses.html#COMP">More</a></th>
+                            <td class="coursecell">
                                 <ul>
                                     <li>Glass is a really interesting lecturer who uses a lot more than just notes on a whiteboard</li>
                                     <li>The assignments are very similar to textbook questions/examples </li>
                                 </ul>
                             </td>
-                            <td>
+                            <td class="coursecell">
                                 <ul>
                                     <li>The exams are a little harder than in class/assignments, memorizing is not enough you actually have to understand the theory </li>
                                     <ul>
@@ -293,7 +299,7 @@
                                     </ul>
                                 </ul>
                             </td>
-                            <td>
+                            <td class="coursecell">
                                 <ul>
                                     <li>Take this before you take MATH 437 -- MATH 437 rehashes a lot of this material in more details </li>
                                     <li>Take this at the same time as MATH 326: Non-linear Dynamics & Chaos</li>
@@ -305,15 +311,15 @@
                             </td>
                         </tr>
                         <tr>
-                            <th>BMDE 519: Biomedical Signals & Systems<br/><br/>Syllabus: TBD </th>
-                            <td>
+                            <th class="coursecode">BMDE 519: Biomedical Signals & Systems<br/><br/>Syllabus: TBD </th>
+                            <td class="coursecell">
                                 <ul>
                                     <li>You learn a lot about using MATLAB, and the fundamental tools used in signal analysis (either a pro or a con depending on if this interests you)</li>
                                     <li>No other course will ever teach you to manage your time like this one (also either a pro or con depending on your outlook)</li>
                                     <li>Midterm and final are offered over a 2 week span (you can pick 72 consecutive hours during this period to write the exam)</li>
                                 </ul>
                             </td>
-                            <td>
+                            <td class="coursecell">
                                 <ul>
                                     <li>Lectures don’t really prepare you for the assignment questions as well as they should</li>
                                     <li>The professor expects you to have significant knowledge before starting the class </li>
@@ -322,7 +328,7 @@
                                     <li>Weekly assignments take 10h+</li>
                                 </ul>
                             </td>
-                            <td>
+                            <td class="coursecell">
                                 <ul>
                                     <li>This course requires previous knowledge of MATLAB. Either take PHGY 425 (an actual intro to MATLAB) in your 3rd year, or spend some time in the summer before your 4th year learning the basics </li>
                                     <li>Learn how to build functions in MATLAB before doing an assignment. Often the assignments are repetitive involving using the same analysis technique for 10 signals. Save the analysis technique as a function then run each signal through it.</li>
@@ -334,19 +340,19 @@
                             </td>
                         </tr>
                         <tr>
-                            <th>MATH 326: Non-linear Dynamics & Chaos<br/><br/>Syllabus: TBD</th>
-                            <td>
+                            <th class="coursecode">MATH 326: Non-linear Dynamics & Chaos<br/><br/>Syllabus: TBD</th>
+                            <td class="coursecell">
                                 <ul>
                                     <li>The most interesting PHGY/MATH course you’ll take</li>
                                 </ul>
                             </td>
-                            <td>
+                            <td class="coursecell">
                                 <ul>
                                     <li>Some computational stuff about approximating dynamical systems</li>
                                     <li>Learn this before the first quiz because it’s tested repeatedly even tho it’s only 1 or 2 lectures </li>
                                 </ul>
                             </td>
-                            <td>
+                            <td class="coursecell">
                                 <ul>
                                     <li>2x In-class Quizzes: % TBD</li>
                                     <li>Midterm: % TBD</li>
@@ -355,8 +361,8 @@
                             </td>
                         </tr>
                         <tr>
-                            <th>MATH 437: Mathematical Methods in Biology<br/><br/>Syllabus: TBD</th>
-                            <td>
+                            <th class="coursecode">MATH 437: Mathematical Methods in Biology<br/><br/>Syllabus: TBD</th>
+                            <td class="coursecell">
                                 <ul>
                                     <li>Super interesting class</li>
                                     <li>Dr. Khadra is extremely engaging and excited about this topic</li>
@@ -370,13 +376,13 @@
                                     <li>You mostly learn about how to use systems of ODEs to represent physiological systems</li>
                                 </ul>
                             </td>
-                            <td>
+                            <td class="coursecell">
                                 <ul>
                                     <li>3 assignments throughout the term (a month to do each) but are REALLY long</li>
                                     <li>XPPAUTO (required program used for time series and bifurcation analysis) is no friend to strangers</li>
                                 </ul>
                             </td>
-                            <td>
+                            <td class="coursecell">
                                 <ul>
                                     <li>Assignments: 3 @ 10% ea.</li>
                                     <li>TBD</li>
@@ -384,18 +390,18 @@
                             </td>
                         </tr>
                         <tr>
-                            <th>PHYS 519: Advanced Biophysics <br/><br/>Syllabus: TBD</th>
-                            <td>
+                            <th class="coursecode">PHYS 519: Advanced Biophysics <br/><br/>Syllabus: TBD</th>
+                            <td class="coursecell">
                                 <ul>
                                     <li>TBD</li>
                                 </ul>
                             </td>
-                            <td>
+                            <td class="coursecell">
                                 <ul>
                                     <li>TBD</li>
                                 </ul>
                             </td>
-                            <td>
+                            <td class="coursecell">
                                 <ul>
                                     <li>TBD</li>
                                 </ul>
@@ -406,23 +412,24 @@
                     
                                         
                     <span id="IHI" class="anchor"></span>
-                    <h3>Interdepartmental Honours Program in Immunology (IHI)</h3>
-                    <p>
-                    <strong>Credits:</strong> 75 <br/><br />
-                    <strong>Features:</strong> Interdepartmental Honors Immunology (IHI) is a joint program between the departments of Physiology, Biochemistry, and Microbiology and Immunology that aims to give students intensive training in the field of Immunology through the lens of these three diverse yet connected fields. Immunology is at the forefront of research and plays a major role in understanding many diseases.  As such, this program is great for students interested in pursuing a career in either research or medicine.
-                    <br /><br />
-                    IHI is a demanding 75-credit program that may make perusing a minor challenging. Students are provided with core training in the basic sciences, with 48 required credits spanning Cell and Molecular Biology, Microbiology and Immunology, Biochemistry, and Physiology. The remaining 27 complementary credits allow freedom for students to specialize in Immunology and related disciplines. Student are also exposed to research techniques and seminar style classes, allowing them to be immersed in academic research in their undergraduate years. In the final year of the program, students carry out a year-long research project under the supervision of a Professor of their choosing. 
-                    <br /><br />
-                    To graduate from IHI, students must have a minimum CGPA of 3.30 and pass five Immunology courses (MIMM 214, MIMM 314, MIMM 414, PHGY 419D1 and D2, PHGY 513, or one of BIOC 503, MIMM 509, PHGY 531) with a minimum grade of B.
-                    <br /><br />
-                    Be aware that, while students are not admitted to the program until their U2 year, there are still U1 required courses. Students interested in pursuing IHI should speak with their departmental advisor prior to the start of the second semester in their U1 year. IHI applications are typically due in the second semester of your U1 year. The application involves a short personal statement as well as submission of your transcript. You will likely hear back about acceptances in mid to late June. 
-                    <br /><br />
-                    If you have any question about the program and would like to speak with a current student do not hesitate to contact one of the four IHI representatives:
-                    <br />
-                    Physiology IHI rep: TBD
-                    <br /><br />
-                    <strong>Course Listing: <a href="https://www.mcgill.ca/physiology/undergraduate-studies/programs/honours-immunology-course-listing" target="_blank">Interdepartmental Honours Immunology Course Listing</a></strong>
-                    <br/><br/>
+                    <h3 id="tablename">Interdepartmental Honours Program in Immunology (IHI)</h3>
+                    <p class="blocktext" >
+                        <div class="highlight">Credits: 75 </div><br/>
+                        <p class="blocktext" id="wideblock"> <strong>Features:</strong> Interdepartmental Honors Immunology (IHI) is a joint program between the departments of Physiology, Biochemistry, and Microbiology and Immunology that aims to give students intensive training in the field of Immunology through the lens of these three diverse yet connected fields. Immunology is at the forefront of research and plays a major role in understanding many diseases.  As such, this program is great for students interested in pursuing a career in either research or medicine.
+                        <br /><br />
+                        IHI is a demanding 75-credit program that may make perusing a minor challenging. Students are provided with core training in the basic sciences, with 48 required credits spanning Cell and Molecular Biology, Microbiology and Immunology, Biochemistry, and Physiology. The remaining 27 complementary credits allow freedom for students to specialize in Immunology and related disciplines. Student are also exposed to research techniques and seminar style classes, allowing them to be immersed in academic research in their undergraduate years. In the final year of the program, students carry out a year-long research project under the supervision of a Professor of their choosing. 
+                        <br /><br />
+                        To graduate from IHI, students must have a minimum CGPA of 3.30 and pass five Immunology courses (MIMM 214, MIMM 314, MIMM 414, PHGY 419D1 and D2, PHGY 513, or one of BIOC 503, MIMM 509, PHGY 531) with a minimum grade of B.
+                        <br /><br />
+                        Be aware that, while students are not admitted to the program until their U2 year, there are still U1 required courses. Students interested in pursuing IHI should speak with their departmental advisor prior to the start of the second semester in their U1 year. IHI applications are typically due in the second semester of your U1 year. The application involves a short personal statement as well as submission of your transcript. You will likely hear back about acceptances in mid to late June. 
+                        <br/><br/>
+                        If you have any questions about the program and would like to speak with a current student do not hesitate to contact the PULS 2019-2020 IHI representative, <strong>Laura LeClair</strong>.
+    
+                    <br/> <br/>
+                    <p class="blocktext block">
+
+                        <strong>Course Listing: <a href="https://www.mcgill.ca/physiology/undergraduate-studies/programs/honours-immunology-course-listing" target="_blank">Interdepartmental Honours Immunology </a></strong>
+                    </p>
                     </p>
             
                 </div>
