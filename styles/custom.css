@@ -215,6 +215,13 @@ img {
     border-radius: 40px;
 }
 
+@media (max-width: 479px) { 
+    .cphoto, .caption {
+        width: 100%;
+        margin-left: 5%;
+        text-align: center;
+    }
+} 
 #list_photos {
     width: 344px;
 }
@@ -849,12 +856,15 @@ body {
     .block1 {
         width: 85% !important;
         animation-duration: 1s;
+        text-align: justify;
     }
     
     .block2 {
-        margin: 5% 0px 0px 10% !important;
+        margin: 5% 0px 10% 0px !important;
         width: 85% !important;
         animation-duration: 1.5s !important;
+        text-align: justify;
+
     }
   
 }
@@ -1041,9 +1051,9 @@ body {
     }
    
     #divHeaderLine1 {
-        font-size: 65px; 
+        font-size: 40px; 
         line-height: 1em;
-        margin: 2.5em 0px 0px 0px !important;
+        margin: 5em 0px 0px 0px !important;
     }
     
     
@@ -1473,7 +1483,8 @@ container.a{text-decoration: underline;}
     
 @media (min-width: 479px) and (max-width: 700px) {
     .footerhead {
-        font-size: 11px;
+        font-size: 10px;
+        text-align: center;
     }
     .footercell {
         border: 0.1px solid #A0C1CD;
@@ -1488,7 +1499,8 @@ container.a{text-decoration: underline;}
 
 @media (max-width: 479px){
     .footerhead {
-        font-size: 11px;
+        font-size: 10px;
+        text-align: center;
     }
     .footercell {
         border: 0.1px solid #A0C1CD;
@@ -1524,7 +1536,7 @@ container.a{text-decoration: underline;}
     padding: none;
     margin: 15px 0px;
     border-radius: 30px;
-    max-height: 450px;
+    max-height: 480px;
     width: 100%;
     object-fit: none;
     object-position: center;
@@ -1536,6 +1548,7 @@ container.a{text-decoration: underline;}
     width: 100%;
     border-radius: 30px;
     filter:brightness(90%);
+
 }
 
 .noresize {
@@ -1550,9 +1563,9 @@ container.a{text-decoration: underline;}
 }
 
 @media (max-width: 479px) {
-    .profileimg .bigimg {
+    .profileimg {
         width: 85%;
-        margin-left: 10% !important;
+        margin-left: 9% !important;
     }
     
     .blurb {
@@ -1565,8 +1578,37 @@ container.a{text-decoration: underline;}
         max-width: 90% !important;
     }
     .bigimg {
-        margin-left: 2% !important;
+        margin-left: 4% !important;
+        width: 100%;
     }   
+    
+    .bigimglight {
+        margin-left: 4% !important;
+        width: 100%;
+    }  
+    #bigimg {
+        margin-left: 4% !important;
+        width: 100%;
+    } 
+    .textoverimg {
+        text-align: center !important;
+        margin-left: 6% !important;
+        font-size: 300% !important;
+    }
+    
+    #textoverimg {
+        text-align: center !important;
+        margin-left: 6%;
+        font-size: 300% !important;
+
+    }
+    
+    .sidebox {
+        margin-left: 8%;
+        line-height: 30px !important;
+        text-align: center;
+    }
+    
 }
 .membername {
     font-family: 'Muli', sans-serif;
@@ -1665,7 +1707,10 @@ tr:nth-child(even) {
     transition: 0.5s;
     text-decoration: none;
 }
-
+.generallink a:hover {
+    color: #A0C1CD;
+    text-decoration: none; 
+}
 .pastcouncil {
     line-height: 1.9;
     padding-left: 25px;
@@ -1715,7 +1760,7 @@ tr:nth-child(even) {
     height: auto;
     text-align: center;
     line-height: 0.9em;
-    margin-top: 13%;
+    margin-top: 14%;
     letter-spacing: 2.9px;
 }
 .textoverimgdark {
@@ -1818,6 +1863,11 @@ tr:nth-child(even) {
 .bigimglight {
     filter: brightness(75%);
     border-radius: 30px;
+    max-height: 480px;
+    width: 100%;
+       
+    
+
 }
 
 .block {
@@ -1825,6 +1875,19 @@ tr:nth-child(even) {
     margin-left: 20% !important;
     display: inline-block;
     text-align: justify;
+}
+
+@media (max-width: 479px) {
+    .block {
+        max-width: 100% !important;
+        margin-left: 8% !important;
+    
+    }
+    
+    .tablename {
+        width: 100%;
+        margin-left: 4%;
+    }
 }
 
 .wideblock {
