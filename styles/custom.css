@@ -204,15 +204,14 @@ img {
 .cphoto {
     max-width: 340px !important;
     width: 340px;
-    padding: 16px !important;
-    box-shadow: -1px 7px 20px #dddddd;
+    box-shadow: -1px 7px 23px #dddddd;
     margin: 0px;
     text-align: center;
     margin-left: 0;
     border: 0px;
     max-height: 250px !important;
-    height: 250px;
-    border-radius: 40px;
+    height: 240px;
+    border-radius: 20px;
 }
 
 @media (max-width: 479px) { 
@@ -860,7 +859,7 @@ body {
     }
     
     .block2 {
-        margin: 5% 0px 10% 0px !important;
+        margin: 5% 0px 10% 0px;
         width: 85% !important;
         animation-duration: 1.5s !important;
         text-align: justify;
@@ -873,7 +872,7 @@ body {
 
 .block2 {
     width: 50%;
-    margin: 0px 0px 50px 40%;
+    margin: 0px 0px 150px 40%;
     animation-name: fade-up-up;
     animation-duration: 3.9s;
     background-color: #F4F8F9;
@@ -1272,7 +1271,6 @@ container.a{text-decoration: underline;}
     text-transform: uppercase;
     font-size: 12px !important;
     padding-top: 3px;
-    padding-bottom: 12px;
     color: #A0C1CD;
     transition: 0.3s;
 }
@@ -1510,9 +1508,9 @@ container.a{text-decoration: underline;}
     .footertable {
         margin-left: 0px;
         max-width: 100% !important;
-    }
-    
+    }  
 }
+
 .line1 { 
     font-family: 'Lexend Deca', sans-serif;
     font-size: 35px;
@@ -1522,9 +1520,9 @@ container.a{text-decoration: underline;}
 }
 
 .line1header {
-    margin: 30px;
-    
+    margin: 30px;  
 }
+
 @media (min-width: 768px) and (max-width: 991px) {
     width: 700px;
 }
@@ -1532,6 +1530,7 @@ container.a{text-decoration: underline;}
 .span6 {
     margin-left: 60px;
 }
+
 .bigimg {
     padding: none;
     margin: 15px 0px;
@@ -1548,18 +1547,17 @@ container.a{text-decoration: underline;}
     width: 100%;
     border-radius: 30px;
     filter:brightness(90%);
-
 }
 
 .noresize {
     object-fit: contain !important;
 }
+
 .profileimg {
     padding: none;
     margin: 0px 0px 20px 15px;
     max-width: 100%;
     border-radius: 30px;
-
 }
 
 @media (max-width: 479px) {
@@ -1577,6 +1575,7 @@ container.a{text-decoration: underline;}
     .memberright {
         max-width: 90% !important;
     }
+
     .bigimg {
         margin-left: 4% !important;
         width: 100%;
@@ -1586,10 +1585,12 @@ container.a{text-decoration: underline;}
         margin-left: 4% !important;
         width: 100%;
     }  
+
     #bigimg {
         margin-left: 4% !important;
         width: 100%;
     } 
+
     .textoverimg {
         text-align: center !important;
         margin-left: 6% !important;
@@ -1600,15 +1601,13 @@ container.a{text-decoration: underline;}
         text-align: center !important;
         margin-left: 6%;
         font-size: 300% !important;
-
     }
     
     .sidebox {
         margin-left: 8%;
         line-height: 30px !important;
         text-align: center;
-    }
-    
+    }   
 }
 .membername {
     font-family: 'Muli', sans-serif;
@@ -1627,9 +1626,9 @@ container.a{text-decoration: underline;}
     transition: 0.3s;
     letter-spacing: 2px;
     border-radius: 8px;
-    margin: 10px 0px 16px 0px;
-    
+    margin: 10px 0px 16px 0px;  
 }
+
 .member {
     text-align: left;
     margin: 50px auto;
@@ -1662,7 +1661,6 @@ container.a{text-decoration: underline;}
 .ctabox {
     text-align: center;
     font-family: 'Muli', sans-serif;
-
 }
 
 .classes {
@@ -1677,22 +1675,20 @@ tr:nth-child(even) {
     text-align: left;
     padding: 20px 20px 20px 30px;
     vertical-align: top;
-
 }
 
 .coursecode a {
     color: #22445F;
     font-family: 'Muli', sans-serif;
     transition: 0.3s;
-    font-weight: 400;
-    
+    font-weight: 400;  
 }
+
 .coursecode a:hover {
     text-decoration: none;
     color: #A0C1CD; 
-
-
 }
+
 .coursecell {
     padding: 20px 30px 20px 0px;
     vertical-align: top;
@@ -1763,6 +1759,7 @@ tr:nth-child(even) {
     margin-top: 14%;
     letter-spacing: 2.9px;
 }
+
 .textoverimgdark {
     z-index: 1;
     font-family: 'Lexend Deca', sans-serif;
@@ -1789,7 +1786,6 @@ tr:nth-child(even) {
     line-height: 25px;
     text-rendering: optimizeLegibility;
     font-weight: 400;
-
 }
 
 .blocktext2 {
@@ -1801,8 +1797,8 @@ tr:nth-child(even) {
     line-height: 25px;
     text-rendering: optimizeLegibility;
     font-weight: 400;
-
 }
+
 .blocktext a {
     font-size: 13px;
     color: #22445F;
@@ -1865,9 +1861,6 @@ tr:nth-child(even) {
     border-radius: 30px;
     max-height: 480px;
     width: 100%;
-       
-    
-
 }
 
 .block {
@@ -1881,7 +1874,6 @@ tr:nth-child(even) {
     .block {
         max-width: 100% !important;
         margin-left: 8% !important;
-    
     }
     
     .tablename {
@@ -1918,6 +1910,10 @@ tr:nth-child(even) {
     border-radius: 8px;
     margin: auto;
     text-align: center;
+}
+
+.googleform {
+    text-align: center; 
 }
 /*
 
