@@ -425,7 +425,7 @@ h1 {
 
 .page-content {
     line-height: 1.5; 
-    font-family: 'lars', sans-serif;
+    font-family: 'Muli', sans-serif;
 }
 
 .page-content a {
@@ -435,6 +435,9 @@ h1 {
     font-family: 'Muli', sans-serif;
 }
 
+.lightlink {
+    color: #A0C1CD !important; 
+}
 
 .span6 {
     margin-left: 0px;
@@ -1699,7 +1702,7 @@ tr:nth-child(even) {
 }
 
 .generallink {
-    color: #22445F !important;
+    color: #22445F;
     transition: 0.5s;
     text-decoration: none;
 }

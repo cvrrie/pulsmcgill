@@ -255,6 +255,7 @@ a:hover {
 .img-polaroid {
     max-width: 50px;
     display: none;
+    border-radius: 60px;
 }
 
 .img-circle {
